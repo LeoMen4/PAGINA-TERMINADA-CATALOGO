@@ -1,0 +1,182 @@
+/* Restablecer estilos por defecto */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilos generales */
+  body {
+    font-family: sans-serif;
+    color: #333;
+    background-color: #f5f5f5;
+  }
+  
+  /* Encabezado */
+  header {
+    background-color: #111;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  header h1 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  /* Sección de género */
+  .genero {
+    margin: 20px auto;
+    max-width: 1200px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .genero h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  /* Lista de productos */
+  .productos {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .productos li {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    width: 300px;
+    flex: 1 1 300px;
+  }
+  
+  .productos li img {
+    max-width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .productos li h3 {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  .productos li p {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  /* Enlace "Ver más" */
+  .productos li a {
+    text-decoration: none;
+    color: #111;
+    font-size: 14px;
+    font-weight: bold;
+    border: 1px solid #111;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .productos li a:hover {
+    background-color: #111;
+    color: #fff;
+  }
+  
+  /* Modificar estilos por género */
+  .hombre {
+    background-color: rgb(183, 207, 243);
+  }
+  
+  .mujer {
+    background-color: rgb(155, 186, 243);
+  }
+  
+  .nino {
+    background-color: #cce5ff;
+  }
+
+
+/*AQUÍ EMPIEZA EL FORMATO DE LOS TENIS------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+  /* Estilos para la página de detalles */
+.detalle-producto {
+    margin: 20px auto;
+    max-width: 1000px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 200px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: rgb(176, 217, 245); /* Color gris claro */
+  }
+  
+  .detalle-producto h2 {
+    font-size: 25px;
+    margin-bottom: 10px;
+    margin-left: 350px;
+  }
+  
+  #producto-grande {
+    max-width: 250px;
+    margin-bottom: 150px;
+    margin-left: -260px;
+    margin-top: 40px;
+    
+}
+  
+  .galeria-imagenes {
+    width: 900px;
+    margin-left: 65px;
+    margin-top: -60px;
+  }
+  
+  .galeria-imagenes h3 {
+    font-size: 25px;
+    margin-bottom: 10px;
+    margin-left: 370px;
+  }
+  
+  .imagenes {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .imagenes li {
+    margin: 5px;
+    display: inline-block;
+  }
+  
+  .imagenes li img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+  }
+  
+  /* Estilos para el enlace "Volver al Catálogo" */
+  .detalle-producto a {
+    text-decoration: none;
+    color: #111;
+    font-size: 14px;
+    font-weight: bold;
+    border: 1px solid #111;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+    margin-top: 20px;
+  }
+  
+  .detalle-producto a:hover {
+    background-color: #111
+  }
+
