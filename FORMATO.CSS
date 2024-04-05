@@ -180,3 +180,22 @@
     background-color: #111
   }
 
+
+  .publicidad {
+    text-align: center;
+    margin: 20px auto;
+    max-width: 800px;
+  }
+  
+  .publicidad img {
+    max-width: 1000px;
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+  bottom: -2400px;
+  left: 450px;
+}
+  
+  .publicidad a {
+    text-decoration: none;
+  }
